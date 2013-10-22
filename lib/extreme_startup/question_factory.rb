@@ -444,6 +444,10 @@ module ExtremeStartup
     def advance_round
       raise("please just restart the server")
     end
+
+    def round
+      1
+    end
   end
 
 end
